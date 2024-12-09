@@ -1,0 +1,30 @@
+/* Header */
+.books-header {
+  background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.7)),
+    url(images/books-bg.jpg) center no-repeat;
+}
+/* End of Header */
+
+/* Books Section */
+.books-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 0;
+}
+
+.books-section .books-list {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* End of Books Section */
+
+/* Responsive */
+@media (max-width: 1600px) {
+  .book {
+    margin: 6rem 3rem;
+  }
+}
+/* End of Responsive */
